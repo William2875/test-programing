@@ -80,3 +80,19 @@ button.buy-btn {
     width: 100%;
     margin-top: 10px;
 }
+
+
+/* Banner-stilar */
+.banner-container {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px; /* Lite utrymme under bannern */
+}
+
+.banner-img {
+    width: 100%;
+    height: auto; /* Behåller bildens proportioner */
+    display: block;
+    max-height: 400px; /* Begränsar höjden för att inte ta över hela skärmen */
+    object-fit: cover; /* Beskär bilden snyggt om den inte passar perfekt */
+}
